@@ -18,41 +18,11 @@
     (property "ki_fp_filters" "D0014A_N D0014A_M D0014A_L" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "THVD1452DR_0_1"
-      (polyline
-        (pts
-          (xy -12.7 -15.24)
-          (xy 12.7 -15.24)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -12.7 15.24)
-          (xy -12.7 -15.24)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -15.24)
-          (xy 12.7 15.24)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 15.24)
-          (xy -12.7 15.24)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-    )
     (symbol "THVD1452DR_1_1"
+      (rectangle (start -12.7 15.24) (end 12.7 -15.24)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
       (circle (center -0.635 4.445) (radius 0.635)
         (stroke (width 0) (type default))
         (fill (type none))
