@@ -2,6 +2,8 @@
 
 # `U3A_rs485` - RS485 - Adapter for U3A
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/0x007E/u3a_rs485)
+
 The `U3A_rs485` project is based on a ([THVD1452](#additional-information)) that ist used to change the RX/TX signals to the required differential signal level of TIA/TIA-485-A standard. It can simply be adapted to the [U3A-Module](https://github.com/0x007e/u3a).
 
 > To use it with a [DSUB](https://www.reichelt.at/at/de/shop/produkt/d-sub_stecker_9_polig-342342) connector it is necessary to solder a connection cable to the DSUB that can be connected with the screw terminal.
