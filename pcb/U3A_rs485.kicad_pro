@@ -687,19 +687,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HTL",
+          "name": "HTL",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "VendorId",
-          "name": "VendorId",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Vendor",
-          "name": "Vendor",
-          "show": false
         },
         {
           "group_by": false,
