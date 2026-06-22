@@ -41,6 +41,7 @@ outputs:
     type: bom
     dir: './bom'
     options: &bom_options
+      output: 'bom.%x'
       xlsx:
         datasheet_as_link: MFP
         max_col_width: 40
@@ -59,7 +60,7 @@ outputs:
     type: ibom
     dir: './ibom'
     options:
-      output: 'IBOM.%x'
+      output: 'ibom.%x'
       layer_view: 'FB'
       # bom_view: 'left-right'
       bom_view: 'top-bottom'
@@ -71,6 +72,7 @@ outputs:
     type: pdf_sch_print
     dir: './schematic'
     options:
+      output: 'schematic.%x'
       monochrome: true
 
   - name: print_pcb
@@ -81,7 +83,7 @@ outputs:
       force_edge_cuts: true
       keep_temporal_files: false
       format: 'PDF'
-      output : 'PCB.%x'
+      output : 'pcb.%x'
       plot_sheet_reference: true
       scaling: 2.0
       pages:
@@ -157,7 +159,9 @@ outputs:
     type: excellon
     dir: './drill'
     options:
+      output: 'drill.%x'
       map:
+        output: 'drill.%x'
         type: pdf
       pth_and_npth_single_file: true
       
